@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.mapping.Field;
 
 import java.util.List;
 
-@Document(collation = "student")
+@Document(collection = "student")
 public class Student {
 
     @Id
