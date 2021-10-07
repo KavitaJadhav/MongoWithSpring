@@ -5,6 +5,8 @@ import com.example.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class StudentService {
     @Autowired
@@ -17,5 +19,9 @@ public class StudentService {
 
     public Student getStudentById(String id) {
         return studentRepository.findById(id).get();
+    }
+
+    public List<Student> getAllStudents() {
+        return studentRepository.findAll();
     }
 }
