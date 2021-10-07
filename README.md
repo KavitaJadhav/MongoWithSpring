@@ -9,3 +9,10 @@ Payload:
 "email": "kavita@mail.com",
 "departments": { "departmentName": "Computor Engineering", "location": "India"},
 "subjects": [{"name": "maths", "mark": "50"}]}`
+
+
+**Get Student by ID**
+
+Method: `GET`
+
+URL: `localhost:8080/api/student/getById/:id`
