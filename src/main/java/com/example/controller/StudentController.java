@@ -24,7 +24,12 @@ public class StudentController {
     }
 
     @GetMapping("/all")
-    public List<Student> getAllStudents(){
+    public List<Student> getAllStudents() {
         return studentService.getAllStudents();
+    }
+
+    @PutMapping("/update")
+    public Student updateStudent(@RequestBody Student student) {
+        return studentService.updateStudent(student);
     }
 }
