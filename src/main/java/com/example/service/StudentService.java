@@ -33,4 +33,8 @@ public class StudentService {
         studentRepository.deleteById(id);
         return "Student record is deleted";
     }
+
+    public List<Student> getStudentByName(String name) {
+        return studentRepository.findByName(name);
+    }
 }

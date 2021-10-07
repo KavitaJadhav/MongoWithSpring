@@ -43,3 +43,10 @@ Payload:
 Method: `DELETE`
 
 URL: `localhost:8080/api/student/delete/:id`
+
+**Get all Students by name**
+
+Method: `GET`
+
+URL: `localhost:8080/api/student/studentByName/:name`
+
