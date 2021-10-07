@@ -36,3 +36,10 @@ Payload:
 "email": "kavita@mail.com",
 "departments": { "departmentName": "Computor Engineering", "location": "India"},
 "subjects": [{"name": "maths", "mark": "50"}]}`
+
+
+**Delete student by id**
+
+Method: `DELETE`
+
+URL: `localhost:8080/api/student/delete/:id`

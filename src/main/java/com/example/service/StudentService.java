@@ -28,4 +28,9 @@ public class StudentService {
     public Student updateStudent(Student student) {
         return studentRepository.save(student);
     }
+
+    public String deleteStudentById(String id) {
+        studentRepository.deleteById(id);
+        return "Student record is deleted";
+    }
 }
