@@ -16,3 +16,10 @@ Payload:
 Method: `GET`
 
 URL: `localhost:8080/api/student/getById/:id`
+
+
+**Get all students**
+
+Method: `GET`
+
+URL: `localhost:8080/api/student/all`
